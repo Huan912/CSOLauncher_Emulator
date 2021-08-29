@@ -31,7 +31,7 @@ int main()
 			&pi);
 		if (pi.hThread)
 		{
-			while (Time <= 10)
+			while (Time <= 10) // Don't asked,If you close it too early, you will not be able to login the game properly. So ^_^
 			{
 
 				Time++;
